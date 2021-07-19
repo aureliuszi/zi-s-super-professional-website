@@ -1,5 +1,5 @@
 body {
-    background-image: url("bg1.png");
+    background-image: url("bg/bg1.png");
     line-height: 1.2
    }
 
@@ -39,12 +39,12 @@ span.grid{
 nav ul {
     font-family: "Patua One";
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
 
 } 
 
