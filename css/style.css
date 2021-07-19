@@ -1,0 +1,50 @@
+body {
+    background-image: url("bg1.png");
+   }
+
+h1 {
+    font-family: "Patua One";
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+}
+
+img.profile {
+    width: 400px;
+    height: 400px;
+    align-content:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family:"Raleway";
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+span.grid{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+nav ul {
+    font-family: "Patua One";
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+
+} 
+
+.bold {
+    font-weight: bold;
+}
